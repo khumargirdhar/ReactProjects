@@ -42,7 +42,7 @@ function App() {
     }
 
     localTodos = JSON.parse(localTodos).todos
-    setTodoValue(localTodos)
+    setTodos(localTodos)
   }, [])
 
   return (
